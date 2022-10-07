@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Encriptador</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style_encriptador.css">
+	</head>
+	<body>
+		<main>
+		<header>
+			<h1><img src="imagenes/vector-logo.png" alt="Logo de alura con la inicial A"></h1>
+			<p>Pon aqui tu mensaje secreto</p>
+			
+		</header>
+			<div class="cajas">
+				<p id="informativo">Solo podrás encriptar minúsculas y sin acentos</p>
+				<section>
+					<textarea class="texto-procesar" cols="50" rows="12" placeholder="Ingrese aqui el texto"></textarea>
+					<div class="botones">
+						<button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+						<button class="Desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+					</div>
+				</section>
+				<section>
+					<textarea id="mensaje" class="resultado" cols="40" rows="20" ></textarea>
+					<button class="copiar" onclick="copy()">Copiar</button>
+				</section>
+				
+			</div>
+		</main>
+		<script src="script.js"></script>
+	</body>
+	<footer>
+		<p>® Alura Latam - ONE Next Education</p>
+		<p>By Leidy Johanna Perez</p>
+		<img class="logo" src="imagenes/github.png">
+	</footer>
+</html>
