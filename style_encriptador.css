@@ -1,5 +1,5 @@
 header{
-	background: linear-gradient(white,#07175A );
+	background: linear-gradient(white,#687ac4);
 	/*background-color: #D9BAEC;*/
 	display: inline-grid;
 	width: 100%;
@@ -7,21 +7,16 @@ header{
 
 header h1{
 	display: inline;
-	padding: 15px;
-}
-
-header p{
-	text-transform: uppercase;
-	color: gold;
+	font-size: 1.2em;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 	font-weight: bold;
-	padding: 15px auto;
-	
+	text-transform: uppercase;
+	padding: 15px;
 }
 
 .cajas{
-	background-image: url(imagenes/seguro.png);
+	background: linear-gradient(#687ac4, #EEFCF5);
 	height: 470px;	
 }
 
@@ -36,9 +31,9 @@ header p{
 	text-align: center;
 	font-size: 1.5em;
 	font-weight: bold;
-	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
 	padding-top: 15px;
-
 }
 
 textarea{
@@ -48,7 +43,6 @@ textarea{
 }
 
 .resultado{
-	
 	background-image: url(imagenes/binoculares.jpg);
 	background-repeat: no-repeat;
 	background-size: 50%;
@@ -68,11 +62,11 @@ button{
 }
 
 footer{
-	background:  linear-gradient(black,#EFF0F7);
+	background:  linear-gradient(#EFF0F7, black);
 	font-size: 1.1em;
 	text-align: center;
 	padding-top: 20px;
-	color: antiquewhite;
+	color: #05006C;
 	font-weight: bold;
 }
 
