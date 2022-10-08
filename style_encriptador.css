@@ -3,6 +3,7 @@ header{
 	/*background-color: #D9BAEC;*/
 	display: inline-grid;
 	width: 100%;
+	height: 20%;
 }
 
 header h1{
@@ -18,6 +19,7 @@ header h1{
 .cajas{
 	background: linear-gradient(#687ac4, #EEFCF5);
 	height: 470px;	
+	height: 70%;
 }
 
 .cajas section{
@@ -68,6 +70,7 @@ footer{
 	padding-top: 20px;
 	color: #05006C;
 	font-weight: bold;
+	height: 10%;
 }
 
 .logo{
